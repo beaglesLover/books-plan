@@ -223,11 +223,10 @@ document.head.appendChild(script); //将script元素添加到DOM中
 ## 参考资料
 
 1. 景初. (2016, Aug 31). 浅谈script标签的defer和async. Retrieved from https://segmentfault.com/a/1190000006778717
-
 2. 寒水寺一禅. (2019, April 3). \<script> 属性详解. Retrieved from https://segmentfault.com/a/1190000018750934
 3. Nightire. (2014, Aug 19). defer和async的区别. Retrieved from https://segmentfault.com/q/1010000000640869
-4. 朱永盛. (2014), 'WebKit技术内幕', 电子工业出版社
 5. 咸肉. (2021, Feb 24). 文档模式：标准模式、混杂模式.  Retrieved from https://juejin.cn/post/6932769062909018125
+5. 朱永盛. (2014), 'WebKit技术内幕', 电子工业出版社
 
 ## 版权声明
 
