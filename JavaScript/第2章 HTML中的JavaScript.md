@@ -1,6 +1,6 @@
 # 第2章 HTML中的JavaScript
 
-####@Author: An Hsu
+**@Author: An Hsu**
 
 ## 2.1 \<script>元素
 
@@ -189,11 +189,11 @@ document.head.appendChild(script); //将script元素添加到DOM中
 
    * 标准模式：`width`指的是`content`部分的宽度
 
-     <img src="https://cdn.jsdelivr.net/gh/xuan97916/image-hosting@master/20211021/bVbRzn2.20pkzt2hpvc0.png" alt="bVbRzn2" style="zoom:50%;" />
+     <img src="https://cdn.jsdelivr.net/gh/xuan97916/image-hosting@master/20211021/bVbRzn2.20pkzt2hpvc0.png" alt="bVbRzn2" style="zoom:67%;" />
 
    * 混杂模式：`width`不含`margin`， 是`content+padding+border`三部分的宽度之和
 
-     <img src="https://cdn.jsdelivr.net/gh/xuan97916/image-hosting@master/20211021/bVbRzRi.4zwr55pp23g.png" alt="bVbRzRi" style="zoom: 60%;" />
+     <img src="https://cdn.jsdelivr.net/gh/xuan97916/image-hosting@master/20211021/bVbRzRi.4zwr55pp23g.png" alt="bVbRzRi" style="zoom:67%;" />
 
 3. 尺寸单位
    * 标准模式：所有尺寸都必须包含单位，若不含单位则被忽略
