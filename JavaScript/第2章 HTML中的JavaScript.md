@@ -42,7 +42,7 @@
 
   1. 对于一个普通的script标签而言，其加载和解析是同步的，会阻塞DOM的渲染，这就是一般将script标签写在body底部的原因，防止加载脚本使得页面处于白屏状态，同时因为JS有可能需要DOM操作，所以需要在DOM全部渲染之后再执行操作。对于多个script元素，其按照在html文件中的先后顺序依次执行。
   2. 对于使用`defer`和`async`参数，其在网络加载阶段相较于HTML解析都是异步的。
-  3. 使用`async`参数对于可以不依赖任何脚本或不被任何脚本依赖的脚本比较合适，如Google Analytics（？）
+  3. 使用`async`参数对于可以不依赖任何脚本或不被任何脚本依赖的脚本比较合适，如Google Analytics
 
   在实际情况下，浏览器会对上述情况做出优化，对于chrome浏览器而言其WebKit的渲染过程如下：
 
@@ -193,7 +193,7 @@ document.head.appendChild(script); //将script元素添加到DOM中
 
    * 混杂模式：`width`不含`margin`， 是`content+padding+border`三部分的宽度之和
 
-     <img src="https://cdn.jsdelivr.net/gh/xuan97916/image-hosting@master/20211021/bVbRzRi.4zwr55pp23g.png" alt="bVbRzRi" style="zoom:67%;" />
+     <img src="https://cdn.jsdelivr.net/gh/xuan97916/image-hosting@master/20211021/bVbRzRi.4zwr55pp23g.png" alt="bVbRzRi" style="zoom:79%;" />
 
 3. 尺寸单位
    * 标准模式：所有尺寸都必须包含单位，若不含单位则被忽略
