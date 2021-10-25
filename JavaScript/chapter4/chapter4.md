@@ -515,7 +515,7 @@ console.log(o3.name); // undefined
   show(); // 函数作为返回值，显示 20
   ```
 
-- 函数作为返回值，显示 20函数作为参数传递
+- 函数作为参数传递
 
   ```javascript
   var x = 10;
